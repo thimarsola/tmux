@@ -13,7 +13,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     if [[ "$appearance" == "Dark" ]]; then
         echo "$THEME_DIR/pinguim.conf"
     else
-        echo "$THEME_DIR/solarized-light.conf"
+        echo "$THEME_DIR/everforest-light.conf"
     fi
 else
     # Default to dark theme on non-macOS systems
